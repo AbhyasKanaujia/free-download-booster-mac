@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		14C14D5E2F7FF27400EDC4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C14D482F7FF27200EDC4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C14D4F2F7FF27200EDC4A3;
+			remoteInfo = "Free Download Booster";
+		};
+		14C14D682F7FF27400EDC4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C14D482F7FF27200EDC4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C14D4F2F7FF27200EDC4A3;
+			remoteInfo = "Free Download Booster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C14D502F7FF27200EDC4A3 /* Free Download Booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free Download Booster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C14D5D2F7FF27400EDC4A3 /* Free Download BoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free Download BoosterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C14D672F7FF27400EDC4A3 /* Free Download BoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free Download BoosterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		14C14D522F7FF27200EDC4A3 /* Free Download Booster */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Free Download Booster";
+			sourceTree = "<group>";
+		};
+		14C14D602F7FF27400EDC4A3 /* Free Download BoosterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Free Download BoosterTests";
+			sourceTree = "<group>";
+		};
+		14C14D6A2F7FF27400EDC4A3 /* Free Download BoosterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Free Download BoosterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C14D4D2F7FF27200EDC4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C14D5A2F7FF27400EDC4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C14D642F7FF27400EDC4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C14D472F7FF27200EDC4A3 = {
+			isa = PBXGroup;
+			children = (
+				14C14D522F7FF27200EDC4A3 /* Free Download Booster */,
+				14C14D602F7FF27400EDC4A3 /* Free Download BoosterTests */,
+				14C14D6A2F7FF27400EDC4A3 /* Free Download BoosterUITests */,
+				14C14D512F7FF27200EDC4A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C14D512F7FF27200EDC4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C14D502F7FF27200EDC4A3 /* Free Download Booster.app */,
+				14C14D5D2F7FF27400EDC4A3 /* Free Download BoosterTests.xctest */,
+				14C14D672F7FF27400EDC4A3 /* Free Download BoosterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C14D4F2F7FF27200EDC4A3 /* Free Download Booster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C14D712F7FF27400EDC4A3 /* Build configuration list for PBXNativeTarget "Free Download Booster" */;
+			buildPhases = (
+				14C14D4C2F7FF27200EDC4A3 /* Sources */,
+				14C14D4D2F7FF27200EDC4A3 /* Frameworks */,
+				14C14D4E2F7FF27200EDC4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				14C14D522F7FF27200EDC4A3 /* Free Download Booster */,
+			);
+			name = "Free Download Booster";
+			packageProductDependencies = (
+			);
+			productName = "Free Download Booster";
+			productReference = 14C14D502F7FF27200EDC4A3 /* Free Download Booster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14C14D5C2F7FF27400EDC4A3 /* Free Download BoosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C14D742F7FF27400EDC4A3 /* Build configuration list for PBXNativeTarget "Free Download BoosterTests" */;
+			buildPhases = (
+				14C14D592F7FF27400EDC4A3 /* Sources */,
+				14C14D5A2F7FF27400EDC4A3 /* Frameworks */,
+				14C14D5B2F7FF27400EDC4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C14D5F2F7FF27400EDC4A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14C14D602F7FF27400EDC4A3 /* Free Download BoosterTests */,
+			);
+			name = "Free Download BoosterTests";
+			packageProductDependencies = (
+			);
+			productName = "Free Download BoosterTests";
+			productReference = 14C14D5D2F7FF27400EDC4A3 /* Free Download BoosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14C14D662F7FF27400EDC4A3 /* Free Download BoosterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C14D772F7FF27400EDC4A3 /* Build configuration list for PBXNativeTarget "Free Download BoosterUITests" */;
+			buildPhases = (
+				14C14D632F7FF27400EDC4A3 /* Sources */,
+				14C14D642F7FF27400EDC4A3 /* Frameworks */,
+				14C14D652F7FF27400EDC4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C14D692F7FF27400EDC4A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14C14D6A2F7FF27400EDC4A3 /* Free Download BoosterUITests */,
+			);
+			name = "Free Download BoosterUITests";
+			packageProductDependencies = (
+			);
+			productName = "Free Download BoosterUITests";
+			productReference = 14C14D672F7FF27400EDC4A3 /* Free Download BoosterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C14D482F7FF27200EDC4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					14C14D4F2F7FF27200EDC4A3 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					14C14D5C2F7FF27400EDC4A3 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 14C14D4F2F7FF27200EDC4A3;
+					};
+					14C14D662F7FF27400EDC4A3 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 14C14D4F2F7FF27200EDC4A3;
+					};
+				};
+			};
+			buildConfigurationList = 14C14D4B2F7FF27200EDC4A3 /* Build configuration list for PBXProject "Free Download Booster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C14D472F7FF27200EDC4A3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 14C14D512F7FF27200EDC4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C14D4F2F7FF27200EDC4A3 /* Free Download Booster */,
+				14C14D5C2F7FF27400EDC4A3 /* Free Download BoosterTests */,
+				14C14D662F7FF27400EDC4A3 /* Free Download BoosterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C14D4E2F7FF27200EDC4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C14D5B2F7FF27400EDC4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C14D652F7FF27400EDC4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C14D4C2F7FF27200EDC4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C14D592F7FF27400EDC4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C14D632F7FF27400EDC4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C14D5F2F7FF27400EDC4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C14D4F2F7FF27200EDC4A3 /* Free Download Booster */;
+			targetProxy = 14C14D5E2F7FF27400EDC4A3 /* PBXContainerItemProxy */;
+		};
+		14C14D692F7FF27400EDC4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C14D4F2F7FF27200EDC4A3 /* Free Download Booster */;
+			targetProxy = 14C14D682F7FF27400EDC4A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14C14D6F2F7FF27400EDC4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14C14D702F7FF27400EDC4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		14C14D722F7FF27400EDC4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhyas.Free-Download-Booster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		14C14D732F7FF27400EDC4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhyas.Free-Download-Booster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		14C14D752F7FF27400EDC4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhyas.Free-Download-BoosterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Free Download Booster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Free Download Booster";
+			};
+			name = Debug;
+		};
+		14C14D762F7FF27400EDC4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhyas.Free-Download-BoosterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Free Download Booster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Free Download Booster";
+			};
+			name = Release;
+		};
+		14C14D782F7FF27400EDC4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhyas.Free-Download-BoosterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Free Download Booster";
+			};
+			name = Debug;
+		};
+		14C14D792F7FF27400EDC4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhyas.Free-Download-BoosterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Free Download Booster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C14D4B2F7FF27200EDC4A3 /* Build configuration list for PBXProject "Free Download Booster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C14D6F2F7FF27400EDC4A3 /* Debug */,
+				14C14D702F7FF27400EDC4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C14D712F7FF27400EDC4A3 /* Build configuration list for PBXNativeTarget "Free Download Booster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C14D722F7FF27400EDC4A3 /* Debug */,
+				14C14D732F7FF27400EDC4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C14D742F7FF27400EDC4A3 /* Build configuration list for PBXNativeTarget "Free Download BoosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C14D752F7FF27400EDC4A3 /* Debug */,
+				14C14D762F7FF27400EDC4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C14D772F7FF27400EDC4A3 /* Build configuration list for PBXNativeTarget "Free Download BoosterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C14D782F7FF27400EDC4A3 /* Debug */,
+				14C14D792F7FF27400EDC4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C14D482F7FF27200EDC4A3 /* Project object */;
+}
