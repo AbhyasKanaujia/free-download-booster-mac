@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct Free_Download_BoosterApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self)
+    var appDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()
