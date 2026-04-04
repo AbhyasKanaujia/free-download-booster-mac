@@ -31,7 +31,7 @@ struct ContentView: View {
 
     private var contentArea: some View {
         Group {
-            if viewModel.downloadService.downloads.isEmpty {
+            if viewModel.downloads.isEmpty {
                 emptyState
             } else {
                 downloadList
@@ -57,13 +57,138 @@ struct ContentView: View {
     }
 
     private var downloadList: some View {
-        List(viewModel.downloadService.downloads) { download in
-            VStack(alignment: .leading, spacing: 4) {
-                Text(download.fileName.isEmpty ? download.url : download.fileName)
-                Text(download.url)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+        List(viewModel.downloads) { download in
+            HStack(alignment: .center, spacing: 12) {
+                // File icon - fixed width
+                Image(systemName: icon(for: download.status))
+                    .foregroundStyle(.secondary)
+                    .frame(width: 20)
+
+                VStack(alignment: .leading, spacing: 6) {
+                    // File name - primary content
+                    Text(download.fileName.isEmpty ? download.url : download.fileName)
+                        .lineLimit(1)
+                        .truncationMode(.middle)
+                        .font(.system(.body))
+
+                    // Status line - always present, always same height
+                    Text(statusText(for: download, bytesPerSecond: download.bytesPerSecond))
+                        .font(.caption)
+                        .foregroundColor(statusColor(for: download.status))
+                        .fixedSize(horizontal: false, vertical: true)
+                        .lineLimit(1)
+
+                    // Progress line - always present, thin, subtle
+                    ProgressView(value: download.progress)
+                        .progressViewStyle(.linear)
+                        .controlSize(.small)
+                        .tint(progressTint(for: download.status))
+                        .opacity(progressOpacity(for: download.status))
+                }
+
+                Spacer()
+
+                // Trailing controls - fixed slot, actions by state
+                HStack(spacing: 8) {
+                    trailingControl(for: download)
+                }
+                .frame(width: 56)
             }
+            .padding(.vertical, 8)
+        }
+    }
+
+    private func statusText(for download: DownloadItem, bytesPerSecond: Int64) -> String {
+        switch download.status {
+        case .pending:
+            return "Preparing..."
+        case .downloading:
+            let downloaded = ByteCountFormatter.string(
+                fromByteCount: download.downloadedBytes,
+                countStyle: .file
+            )
+
+            let total = download.totalBytes > 0
+                ? ByteCountFormatter.string(
+                    fromByteCount: download.totalBytes,
+                    countStyle: .file
+                )
+                : "unknown size"
+
+            let speed = bytesPerSecond > 0
+                ? " • " + ByteCountFormatter.string(fromByteCount: bytesPerSecond, countStyle: .file) + "/s"
+                : ""
+
+            return "\(downloaded) of \(total)\(speed)"
+
+        case .completed:
+            return "Completed"
+        case .paused:
+            return "Paused"
+        case .failed(let error):
+            return "Failed: \(error)"
+        }
+    }
+
+    private func progressTint(for status: DownloadStatus) -> Color {
+        switch status {
+        case .completed:
+            return .secondary
+        case .failed:
+            return .red
+        default:
+            return .accentColor
+        }
+    }
+
+    private func progressOpacity(for status: DownloadStatus) -> Double {
+        switch status {
+        case .completed:
+            return 0.2
+        case .failed:
+            return 0.3
+        default:
+            return 1.0
+        }
+    }
+
+    private func statusColor(for status: DownloadStatus) -> Color {
+        switch status {
+        case .completed:
+            return .secondary.opacity(0.7)
+        default:
+            return .secondary
+        }
+    }
+
+    @ViewBuilder
+    private func trailingControl(for download: DownloadItem) -> some View {
+        switch download.status {
+        case .pending, .downloading:
+            ProgressView()
+                .controlSize(.small)
+        case .completed:
+            Image(systemName: "checkmark.circle.fill")
+                .foregroundStyle(.green.opacity(0.8))
+        case .paused:
+            Image(systemName: "play.circle")
+                .foregroundStyle(.blue)
+        case .failed:
+            Image(systemName: "arrow.clockwise.circle")
+                .foregroundStyle(.orange)
+        }
+    }
+
+    private func icon(for status: DownloadStatus) -> String {
+        switch status {
+        case .completed:
+            return "doc.fill"
+        case .downloading, .pending:
+            return "doc"
+        case .paused:
+            return "doc.badge.plus"
+        case .failed:
+            return "exclamationmark.triangle"
         }
     }
 }
@@ -89,8 +214,8 @@ struct DownloadInput: View {
             .disabled(!isValid)
         }
         .padding(10)
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 10))
+        .background(.thinMaterial)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }
 

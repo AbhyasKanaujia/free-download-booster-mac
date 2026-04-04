@@ -15,18 +15,19 @@ final class DownloadViewModel: ObservableObject {
 
     @Published var urlText: String = ""
     @Published private(set) var isValidURL: Bool = false
-
-    let downloadService: DownloadService
+    @Published var downloads: [DownloadItem] = []
 
     // MARK: - Private
 
     private var cancellables = Set<AnyCancellable>()
+    private let downloadService: DownloadService
 
     // MARK: - Init
 
     init(downloadService: DownloadService = DownloadService()) {
         self.downloadService = downloadService
         bindValidation()
+        bindDownloads()
     }
 
     // MARK: - Binding
@@ -37,6 +38,12 @@ final class DownloadViewModel: ObservableObject {
             .removeDuplicates()
             .map(validateURL)
             .assign(to: &$isValidURL)
+    }
+
+    private func bindDownloads() {
+        downloadService.$downloads
+            .receive(on: DispatchQueue.main)
+            .assign(to: &$downloads)
     }
 
     // MARK: - Validation
